@@ -7,6 +7,253 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header id="header">
+      <a href="#" class="logo">Primrose Muzvuru</a>
+      <nav class="navigation">
+        <button class="dark-mode-button" onclick="toggleDarkMode()">
+      <i class="fas fa-moon"></i>
+          </button>
+        <a href="#story">My Story</a>
+        <a href="#awards-achivements">Awards</a>
+        <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="cover">
+      <div class="cover-left">
+        <p >My Biggest Achievement</p>
+        <h1>Graduating High School</h1>
+        <div class="quote-cointainer">
+        <blockquote class="quote">
+          "It always seems impossible until it's done." - Nelson Mandela
+        </blockquote>
+        </div>
+        <button onclick="scrollToSection('story')">Explore My Journey</button>
+      </div>
+      <div class="cover-right">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/911/original/graduation.jpg?1728471383"
+          alt="Primrose Muzvuru Graduation Image"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <section id="story" class="section">
+        <h2>My Journey</h2>
+        <p>
+          As a matriculant at Hout Bay High School, I achieved four A’s, one B,
+          and two C’s for my final matric results, despite facing difficult
+          personal circumstances. My hard work and determination paid off as I
+          scored high marks in my finals. I was honored at a provincial
+          education department awards ceremony for excelling under these
+          challenging conditions. On Tuesday, February 28 2023, I received an
+          award from the Western Cape Education Department’s Metro Central
+          Education District for my achievements. Throughout my high school
+          years, I actively participated in many school programs and clubs,
+          which further enriched my educational journey.
+        </p>
+        <div>
+        <blockquote>
+          "Education is the most powerful weapon which you can use to change the
+          world." - Nelson Mandela
+        </blockquote>
+        </div>
+      </section>
+
+      <section id="challenges" class="section">
+        <h2>Overcoming Challenges</h2>
+        <p>
+          As the mother of an 18-month-old son (at the time), my matric year was far from
+          easy. The challenge of balancing school and motherhood left me
+          constantly busy and with little time to study. My family circumstances
+          added to the difficulty, with my father living in a different country
+          and my mother working hard to support us. Living with extended family
+          in a cramped, one-room space made finding a quiet place to study
+          nearly impossible. Often, when I tried to focus on my books, my son
+          would become restless. This meant I had to wait until late at night,
+          when he was asleep, to get any studying done. Despite these tough
+          times, I am deeply grateful for the support of my school principal,
+          who provided a quiet and safe study space for matriculants.
+        </p>
+      </section>
+
+      <section id="key-moments" class="section">
+        <h2>Key Moments</h2>
+        <span
+          >Throughout my high school years there were several key moments that
+          shaped my journey:
+        </span>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <span>First Day of School in 2018</span>
+            
+          </li>
+          <li class="timeline-item">
+            <span>Joining Poetry Club</span>
+          </li>
+          <li class="timeline-item">
+            <span> Joining Lalela (Art Club)</span>
+          </li>
+          <li class="timeline-item">
+            <span>Joining Enviro Club</span>
+          </li>
+          <li class="timeline-item">
+            <span>Joining Interact Club
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="awards-achivements" class="section">
+            <h2>Awards & Achievements</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>
+                        Achieved four A’s, one B, and two C’s for my final matric
+                        results.
+                    </p>
+                </div>
+            
+                <div class="grid-item">
+                    <div class="icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Overcoming Adversity Award</h3>
+                    <p>
+                        Honored by the Western Cape Education Department for excelling
+                        academically despite challenging personal circumstances.
+                    </p>
+                </div>
+        
+                <div class="grid-item" >
+                    <div class="icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Arts & Culture</h3>
+                    <p>
+                        Active member of the Poetry Club and Lalela (Art Club),
+                        showcasing creativity and artistic talents.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <div class="icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h3>Community Involvement</h3>
+                    <p>
+                        Participated in Enviro Club and Interact Club, demonstrating a
+                        commitment to environmental sustainability and community service.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+<section id="certificates" class="section"></section>
+        <p class="awards-intro">Achieved high marks and recognition in academic contests.</p>
+        <span class="switch-left">
+          <i class="fa-solid fa-angle-left" id="gallery-left-icon"></i>
+        </span>
+        <div class="carousel" id="gallery-carousel">
+            <div class="full-image-modal">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/893/original/Reaching_Milestone.jpeg?1728461642"
+            alt="Reaching Milestone Certificate"
+            draggable="false"
+          />
+          </div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/892/original/Maths_Lit.jpeg?1728461631"
+            alt="Maths Literacy Certificate"
+            draggable="false"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/888/original/First_Place_Achiever.jpeg?1728461586"
+            alt="First Place Achiever Certificate"
+            draggable="false"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/886/original/English_HL.jpeg?1728461571"
+            alt="English Home Language Certificate"
+            draggable="false"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/884/original/Afrikaans_FAL.jpeg?1728461552"
+            alt="Afrikaans First Additional Language Certificate"
+            draggable="false"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/885/original/Business_Studies.jpeg?1728461560"
+            alt="Business Studies Certificate"
+            draggable="false"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/891/original/Life_Orientation.jpeg?1728461619"
+            alt="Life Orienation Certificate"
+            draggable="false"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/146/894/original/Tourism.jpeg?1728461652"
+            alt="Tourism Certificate"
+            draggable="false"
+          />
+        </div>
+        <span class="switch-right">
+          <i class="fa-solid fa-angle-right" id="gallery-right-icon"></i>
+        </span>
+      </section>
+
+<section id="contact" class="section">
+  <h2>Get in Touch</h2>
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name-input">Name:</label>
+      <input type="text" id="name-input" required>
+    </div>
+    <div class="form-group">
+      <label for="email-input">Email:</label>
+      <input type="email" id="email-input" required>
+    </div>
+    <div class="form-group">
+      <label for="subject-input">Subject:</label>
+      <input type="text" id="subject-input" required>
+    </div>
+    <div class="form-group">
+      <label for="message-input">Message:</label>
+      <textarea id="message-input" required></textarea>
+    </div>
+    <input type="submit" value="Contact">
+  </form>     
+
+  <div id="success-message" style="display: none;">
+    <h2>Message Simulated!</h2>
+    <p>You've successfully reached the end of my SheCodes challenge! While this form doesn't send real emails (yet!), you can find me at the links below.</p>
+    <p id="greeting"></p>
+  </div>
+
+  <div class="contact-links">
+  <a href="mailto:primrosemuzvuru04@gmail.com" target="_blank">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/primrose-muzvuru/" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/PMuzvuru" target="_blank"> 
+    <i class="fab fa-github"></i>
+  </a> 
+</div>
+
+</section>
+
+    <footer >
+        <p>Coded by Primrose Muzvuru using HTML, CSS, and JavaScript for the SheCodes 🏆 Biggest Achievement Challenge.
+        </p>
+    </footer> 
+
     <script src="script.js"></script>
   </body>
 </html>
