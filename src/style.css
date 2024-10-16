@@ -433,16 +433,13 @@ footer p {
 }
 
 /* Media Queries */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   header {
-    gap: 5px;
     margin: 0 auto;
   }
 
-  .Cover {
-    margin-top: 30px;
-  }
   .cover-left {
+    margin-top: 30px;
     margin-bottom: 10px;
   }
   .cover-right img {
