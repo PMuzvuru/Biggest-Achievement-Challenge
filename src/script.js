@@ -11,11 +11,6 @@ function darkTheme() {
 let themeButton = document.querySelector(".dark-mode-button");
 themeButton.addEventListener("click", darkTheme);
 
-// Toggle theme on button click
-toggleButton.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-});
-
 /* Carousel Zoom Effect */
 const images = document.querySelectorAll(".carousel img");
 const fullImageModal = document.querySelector(".full-image-modal");
@@ -35,7 +30,6 @@ fullImageModal.addEventListener("click", () => {
 /* Form Email sent */
 const form = document.getElementById("contact-form");
 const successMessage = document.getElementById("success-message");
-const greetingElement = document.getElementById("greeting"); // Target the greeting paragraph
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -45,7 +39,6 @@ form.addEventListener("submit", (e) => {
 
   // Create the greeting message
   const greeting = "Hello, " + name + "! Thank you for your time.";
-  greetingElement.innerHTML = greeting;
 
   // Update the success message content
   successMessage.innerHTML = `
