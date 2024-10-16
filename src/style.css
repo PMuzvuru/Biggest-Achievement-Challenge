@@ -448,8 +448,9 @@ footer p {
   }
 }
 
-.navigation {
+.navigation a {
   margin: 0 auto;
+  margin-right: 10px;
 }
 
 @media (max-width: 768px) {
